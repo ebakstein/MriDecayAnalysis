@@ -8,6 +8,13 @@
 % 
 % 
 % Reworked version by E. Bakstein, based on MRIanalysis_3May2018.m
+% EDITS 2018-05-15:
+% -	Settings: all code parameters editable in the top code section
+% -	Loading voxel size from *.nii header directly
+% -	ROIS: counts and names now editable in the settings section
+% -	Slice selection: reworked + cleaned-up code
+% -	Slice selection: divides slices into multiple figures if there are too many to fit on a single figure
+% -	Fixed viewing of the results (one figure per slice)
 
 %% INIT
 %clear all; close all; 
